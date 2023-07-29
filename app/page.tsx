@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className=" flex gap-6">
       <button onClick={handleClick}>play</button>
-      <button onClick={handleVolume}>dim music</button>
+      <button onClick={handleVolume}>dim music!</button>
       <audio ref={ref1} src="/1.mp3" controls></audio>
       <audio ref={ref2} src="/2.mp3" controls></audio>
     </main>
